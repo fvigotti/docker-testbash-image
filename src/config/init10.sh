@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/bin/bash
+
 LOOP_ITERATION_COUNT=10
 n=0
-echo 'starting init03 , pid='$$
+echo 'starting '$0' , pid='$$
 
 ## fake setup execution
 until [ "$n" -ge "$LOOP_ITERATION_COUNT" ]

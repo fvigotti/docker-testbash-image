@@ -1,4 +1,5 @@
 #!/bin/bash
+
 clean_up() {
 # Perform program exit housekeeping
 echo '[TRAPPED] '$1'closing program, pid =  '$$;
